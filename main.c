@@ -25,7 +25,7 @@ void addingbook()
         fgets(added_book,100,stdin);
         fptr = fopen("lib-db.sdkapdb" , "a");
         fprintf(fptr , "%s" , added_book);
-        printf("Book added succesfully!!");
+        printf("Book added succesfully!!\n");
         fclose(fptr);
 }
 void readingbooks()
